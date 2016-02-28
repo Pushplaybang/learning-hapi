@@ -2,13 +2,15 @@
   "name": "learn-hapi",
   "version": "1.0.0",
   "description": "learning the hapi framework",
-  "main": "index.js",
+  "repository": "https://github.com/Pushplaybang/learning-hapi.git",
+  "main": "server.js",
   "dependencies": {
     "blipp": "^2.3.0",
     "good": "^6.6.0",
     "good-console": "^5.3.1",
     "hapi": "^13.0.0",
-    "inert": "^3.2.0"
+    "inert": "^3.2.0",
+    "vision": "^4.0.1"
   },
   "devDependencies": {
     "babel-eslint": "^5.0.0",
@@ -19,6 +21,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Paul van Zyl",
   "license": "ISC"
 }
