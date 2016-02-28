@@ -15,6 +15,7 @@ nodemon -w ./ server.js
 * [Inert](https://github.com/hapijs/inert)
 * [Vision](https://github.com/hapijs/vision)
 * [Boom](https://github.com/hapijs/boom)
+* [Joi](https://github.com/hapijs/joi)
 
 ### Useful General References
 
