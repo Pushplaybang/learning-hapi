@@ -14,6 +14,7 @@ nodemon -w ./ server.js
 * [Hapi-example](https://github.com/geek/hapi-example/blob/master/server.js)
 * [Inert](https://github.com/hapijs/inert)
 * [Vision](https://github.com/hapijs/vision)
+* [Boom](https://github.com/hapijs/boom)
 
 ### Useful General References
 
