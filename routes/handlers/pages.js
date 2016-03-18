@@ -1,5 +1,6 @@
 /* Require Dependancies */
 const Path = require('path');
+const Joi = require('joi');
 
 /* Define an empty object to attach our handlers too */
 const handlers = {};

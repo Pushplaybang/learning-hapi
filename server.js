@@ -2,11 +2,11 @@
 const Hapi = require('hapi');
 
 /* Hapi Plugins */
-const Inert = require('inert');     // easy static file hanling,
-const Good = require('good');       // logging package
-const Blipp = require('blipp');     // prints routes on startup
-const Boom = require('boom');       // http friendly errors
-const Vision = require('vision');   // Hapi templates and views
+const Inert = require('inert');            // easy static file hanling,
+const Good = require('good');              // logging package
+const Blipp = require('blipp');            // prints routes on startup
+const Boom = require('boom');              // http friendly errors
+const Vision = require('vision');          // Hapi templates and views
 const HandleBars = require('handlebars');  // handlebars templating
 
 /* Import Our Modules */
@@ -63,7 +63,6 @@ server.register([
     const resp = request.response;
     if (!resp.isBoom) return reply.continue();
 
-
     return reply.view('error', resp.output.payload)
       .code(resp.output.statusCode);
   });
@@ -77,4 +76,6 @@ server.register([
   /* Start the server */
   server.start(() => {});
 });
+
+
 

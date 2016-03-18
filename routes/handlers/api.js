@@ -1,8 +1,10 @@
 /* Require Dependancies */
 const Path = require('path');
+const Joi = require('joi');
+const Cheerio = require('cheerio');
 
 /* Define an empty object to attach our handlers too */
-const handlers = {};
+handlers = {};
 
 /* Simple response */
 handlers.home = (request, reply) => {
